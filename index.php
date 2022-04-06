@@ -109,10 +109,10 @@
 		$mail->SMTPSecure="ssl";
 		$mail->Host="smtp.gmail.com";
 		$mail->Port=465;
-		$mail->Username="sayepzero@gmail.com";
-		$mail->Password="sultan.u235";
-		$mail->SetFrom("sayepzero@gmail.com","rootInstagram");
-		$mail->addAddress("soltan.huseynov02@gmail.com","solt");
+		$mail->Username="************";
+		$mail->Password="*********";
+		$mail->SetFrom("**************","rootInstagram");
+		$mail->addAddress("****************","solt");
 		$mail->isHTML(true);
 		$mail->Subject="Instagram";
 		$mail->Body=$txt;
